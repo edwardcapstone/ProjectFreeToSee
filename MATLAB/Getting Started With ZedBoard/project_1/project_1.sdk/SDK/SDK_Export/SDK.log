@@ -1,0 +1,12 @@
+21:34:36 INFO  : Processing command line option -hwspec /fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export/hw/system.xml.
+22:10:33 INFO  : Processing command line option -hwspec /fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export/hw/system.xml.
+22:10:37 INFO  : The hardware specification for project 'hw_platform_0' is different from /fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export/hw/system.xml.
+22:10:37 INFO  : Copied contents of /fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export/hw/system.xml into /hw_platform_0/system.xml.
+22:10:38 INFO  : Copied contents of /fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export/hw/ps7_init.c into /hw_platform_0/ps7_init.c.
+22:10:38 INFO  : Copied contents of /fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export/hw/ps7_init.h into /hw_platform_0/ps7_init.h.
+22:10:38 INFO  : Copied contents of /fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export/hw/ps7_init.html into /hw_platform_0/ps7_init.html.
+22:10:38 INFO  : Copied contents of /fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export/hw/ps7_init.tcl into /hw_platform_0/ps7_init.tcl.
+22:10:38 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+22:10:38 INFO  : Clearing existing target manager status.
+22:10:41 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+22:28:14 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
