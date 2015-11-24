@@ -1,0 +1,982 @@
+23:16:56 **** Build of project Hello_World_bsp ****
+make -k all 
+Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_0/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_0/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_0/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/scugic_v2_0/src
+make -C ps7_cortexa9_0/libsrc/scugic_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_0/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_0/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/standalone_v4_0/src
+make -C ps7_cortexa9_0/libsrc/standalone_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+make[2]: Entering directory `/fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export/Hello_World_bsp/ps7_cortexa9_0/libsrc/standalone_v4_0/src/profile'
+cp -rf profile.h mblaze_nt_types.h _profile_timer_hw.h ../../../../include
+make[2]: Leaving directory `/fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export/Hello_World_bsp/ps7_cortexa9_0/libsrc/standalone_v4_0/src/profile'
+Running Make include in ps7_cortexa9_0/libsrc/uartps_v2_0/src
+make -C ps7_cortexa9_0/libsrc/uartps_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_0/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_0/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling cpu_cortexa9
+Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_0/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling devcfg
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_0/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling dmaps
+Running Make libs in ps7_cortexa9_0/libsrc/scugic_v2_0/src
+make -C ps7_cortexa9_0/libsrc/scugic_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling scugic
+Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_0/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling scutimer
+Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_0/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling scuwdt
+Running Make libs in ps7_cortexa9_0/libsrc/standalone_v4_0/src
+make -C ps7_cortexa9_0/libsrc/standalone_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling standalone
+Running Make libs in ps7_cortexa9_0/libsrc/uartps_v2_0/src
+make -C ps7_cortexa9_0/libsrc/uartps_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling uartps
+Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_0/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling xadcps
+Finished building libraries
+23:17:03 **** Build of configuration Debug for project Hello_World ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../Hello_World_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building file: ../src/platform.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../Hello_World_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: Hello_World.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Hello_World_bsp/ps7_cortexa9_0/lib -o "Hello_World.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Hello_World.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Hello_World.elf  |tee "Hello_World.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22892	   1096	  29780	  53768	   d208	Hello_World.elf
+Finished building: Hello_World.elf.size
+ 
+23:19:33 **** Incremental Build of configuration Debug for project Hello_World ****
+make all 
+make: Nothing to be done for `all'.
+21:16:11 **** Auto Build of project Hello_World_bsp ****
+make -k all 
+Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_0/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_0/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_0/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/scugic_v2_0/src
+make -C ps7_cortexa9_0/libsrc/scugic_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_0/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_0/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/standalone_v4_0/src
+make -C ps7_cortexa9_0/libsrc/standalone_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+make[2]: Entering directory `/fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export/Hello_World_bsp/ps7_cortexa9_0/libsrc/standalone_v4_0/src/profile'
+cp -rf profile.h mblaze_nt_types.h _profile_timer_hw.h ../../../../include
+make[2]: Leaving directory `/fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export/Hello_World_bsp/ps7_cortexa9_0/libsrc/standalone_v4_0/src/profile'
+Running Make include in ps7_cortexa9_0/libsrc/uartps_v2_0/src
+make -C ps7_cortexa9_0/libsrc/uartps_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_0/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_0/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling cpu_cortexa9
+Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_0/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling devcfg
+Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_0/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling dmaps
+Running Make libs in ps7_cortexa9_0/libsrc/scugic_v2_0/src
+make -C ps7_cortexa9_0/libsrc/scugic_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling scugic
+Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_0/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling scutimer
+Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_0/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling scuwdt
+Running Make libs in ps7_cortexa9_0/libsrc/standalone_v4_0/src
+make -C ps7_cortexa9_0/libsrc/standalone_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling standalone
+Running Make libs in ps7_cortexa9_0/libsrc/uartps_v2_0/src
+make -C ps7_cortexa9_0/libsrc/uartps_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling uartps
+Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_0/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling xadcps
+Finished building libraries
+21:16:20 **** Auto Build of project Hello_World_bsp ****
+make -k all 
+Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_0/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_0/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_0/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/scugic_v2_0/src
+make -C ps7_cortexa9_0/libsrc/scugic_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_0/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_0/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/standalone_v4_0/src
+make -C ps7_cortexa9_0/libsrc/standalone_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+make[2]: Entering directory `/fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export/Hello_World_bsp/ps7_cortexa9_0/libsrc/standalone_v4_0/src/profile'
+cp -rf profile.h mblaze_nt_types.h _profile_timer_hw.h ../../../../include
+make[2]: Leaving directory `/fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export/Hello_World_bsp/ps7_cortexa9_0/libsrc/standalone_v4_0/src/profile'
+Running Make include in ps7_cortexa9_0/libsrc/uartps_v2_0/src
+make -C ps7_cortexa9_0/libsrc/uartps_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_0/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_0/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling cpu_cortexa9
+Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_0/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling devcfg
+Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_0/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling dmaps
+Running Make libs in ps7_cortexa9_0/libsrc/scugic_v2_0/src
+make -C ps7_cortexa9_0/libsrc/scugic_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling scugic
+Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_0/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling scutimer
+Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_0/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling scuwdt
+Running Make libs in ps7_cortexa9_0/libsrc/standalone_v4_0/src
+make -C ps7_cortexa9_0/libsrc/standalone_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling standalone
+Running Make libs in ps7_cortexa9_0/libsrc/uartps_v2_0/src
+make -C ps7_cortexa9_0/libsrc/uartps_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling uartps
+Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_0/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling xadcps
+Finished building libraries
+21:16:28 **** Auto Build of configuration Debug for project Hello_World ****
+make all 
+make: Nothing to be done for `all'.
+21:16:31 **** Clean-only build of project Hello_World_bsp ****
+make -k clean 
+rm -f ps7_cortexa9_0/lib/libxil.a
+21:16:32 **** Clean-only build of configuration Debug for project Hello_World ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/platform.o  ./src/helloworld.d ./src/platform.d  Hello_World.elf.size  Hello_World.elf
+ 
+21:16:32 **** Build of project Hello_World_bsp ****
+make -k all 
+Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_0/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_0/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_0/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/scugic_v2_0/src
+make -C ps7_cortexa9_0/libsrc/scugic_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_0/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_0/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/standalone_v4_0/src
+make -C ps7_cortexa9_0/libsrc/standalone_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+make[2]: Entering directory `/fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export/Hello_World_bsp/ps7_cortexa9_0/libsrc/standalone_v4_0/src/profile'
+cp -rf profile.h mblaze_nt_types.h _profile_timer_hw.h ../../../../include
+make[2]: Leaving directory `/fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export/Hello_World_bsp/ps7_cortexa9_0/libsrc/standalone_v4_0/src/profile'
+Running Make include in ps7_cortexa9_0/libsrc/uartps_v2_0/src
+make -C ps7_cortexa9_0/libsrc/uartps_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_0/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_0/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling cpu_cortexa9
+Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_0/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling devcfg
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_0/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling dmaps
+Running Make libs in ps7_cortexa9_0/libsrc/scugic_v2_0/src
+make -C ps7_cortexa9_0/libsrc/scugic_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling scugic
+Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_0/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling scutimer
+Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_0/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling scuwdt
+Running Make libs in ps7_cortexa9_0/libsrc/standalone_v4_0/src
+make -C ps7_cortexa9_0/libsrc/standalone_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling standalone
+Running Make libs in ps7_cortexa9_0/libsrc/uartps_v2_0/src
+make -C ps7_cortexa9_0/libsrc/uartps_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling uartps
+Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_0/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling xadcps
+Finished building libraries
+21:16:39 **** Build of configuration Debug for project Hello_World ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../Hello_World_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building file: ../src/platform.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../Hello_World_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: Hello_World.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Hello_World_bsp/ps7_cortexa9_0/lib -o "Hello_World.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Hello_World.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Hello_World.elf  |tee "Hello_World.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22892	   1096	  29780	  53768	   d208	Hello_World.elf
+Finished building: Hello_World.elf.size
+ 
+21:19:21 **** Build of project Hello_World_Prompt_bsp ****
+make -k all 
+Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_0/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_0/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_0/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/emacps_v2_0/src
+make -C ps7_cortexa9_0/libsrc/emacps_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/gpiops_v2_0/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_0/src
+make -C ps7_cortexa9_0/libsrc/gpio_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_0/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/scugic_v2_0/src
+make -C ps7_cortexa9_0/libsrc/scugic_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_0/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_0/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_0/src
+make -C ps7_cortexa9_0/libsrc/sdps_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/standalone_v4_0/src
+make -C ps7_cortexa9_0/libsrc/standalone_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+make[2]: Entering directory `/fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export/Hello_World_Prompt_bsp/ps7_cortexa9_0/libsrc/standalone_v4_0/src/profile'
+cp -rf profile.h mblaze_nt_types.h _profile_timer_hw.h ../../../../include
+make[2]: Leaving directory `/fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export/Hello_World_Prompt_bsp/ps7_cortexa9_0/libsrc/standalone_v4_0/src/profile'
+Running Make include in ps7_cortexa9_0/libsrc/tmrctr_v3_0/src
+make -C ps7_cortexa9_0/libsrc/tmrctr_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/uartps_v2_0/src
+make -C ps7_cortexa9_0/libsrc/uartps_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_0/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_0/src -s include -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_0/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling cpu_cortexa9
+Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_0/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling devcfg
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_0/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling dmaps
+Running Make libs in ps7_cortexa9_0/libsrc/emacps_v2_0/src
+make -C ps7_cortexa9_0/libsrc/emacps_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling emacps
+Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v2_0/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling gpiops
+Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_0/src
+make -C ps7_cortexa9_0/libsrc/gpio_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling gpio
+make[2]: Entering directory `/fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export/Hello_World_Prompt_bsp/ps7_cortexa9_0/libsrc/gpio_v4_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export/Hello_World_Prompt_bsp/ps7_cortexa9_0/libsrc/gpio_v4_0/src'
+Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_0/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling qspips
+Running Make libs in ps7_cortexa9_0/libsrc/scugic_v2_0/src
+make -C ps7_cortexa9_0/libsrc/scugic_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling scugic
+Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_0/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling scutimer
+Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_0/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling scuwdt
+Running Make libs in ps7_cortexa9_0/libsrc/sdps_v2_0/src
+make -C ps7_cortexa9_0/libsrc/sdps_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling sdps
+Running Make libs in ps7_cortexa9_0/libsrc/standalone_v4_0/src
+make -C ps7_cortexa9_0/libsrc/standalone_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling standalone
+Running Make libs in ps7_cortexa9_0/libsrc/tmrctr_v3_0/src
+make -C ps7_cortexa9_0/libsrc/tmrctr_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling tmrctr
+make[2]: Entering directory `/fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export/Hello_World_Prompt_bsp/ps7_cortexa9_0/libsrc/tmrctr_v3_0/src'
+rm -rf *.o 
+make[2]: Leaving directory `/fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export/Hello_World_Prompt_bsp/ps7_cortexa9_0/libsrc/tmrctr_v3_0/src'
+Running Make libs in ps7_cortexa9_0/libsrc/uartps_v2_0/src
+make -C ps7_cortexa9_0/libsrc/uartps_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling uartps
+Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_0/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling xadcps
+Finished building libraries
+21:19:33 **** Build of configuration Debug for project Hello_World_Prompt ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../Hello_World_Prompt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building file: ../src/platform.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../Hello_World_Prompt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: Hello_World_Prompt.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Hello_World_Prompt_bsp/ps7_cortexa9_0/lib -o "Hello_World_Prompt.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Hello_World_Prompt.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Hello_World_Prompt.elf  |tee "Hello_World_Prompt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22892	   1096	  29780	  53768	   d208	Hello_World_Prompt.elf
+Finished building: Hello_World_Prompt.elf.size
+ 
+21:27:07 **** Auto Build of configuration Debug for project Hello_World_Prompt ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../Hello_World_Prompt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Hello_World_Prompt.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Hello_World_Prompt_bsp/ps7_cortexa9_0/lib -o "Hello_World_Prompt.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Hello_World_Prompt.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Hello_World_Prompt.elf  |tee "Hello_World_Prompt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  78260	   3096	  29916	 111272	  1b2a8	Hello_World_Prompt.elf
+Finished building: Hello_World_Prompt.elf.size
+ 
+21:29:07 **** Incremental Build of configuration Debug for project Hello_World_Prompt ****
+make all 
+make: Nothing to be done for `all'.
+21:29:08 **** Incremental Build of configuration Debug for project Hello_World ****
+make all 
+make: Nothing to be done for `all'.
+21:34:33 **** Incremental Build of configuration Debug for project Hello_World_Prompt ****
+make all 
+make: Nothing to be done for `all'.
+21:34:34 **** Incremental Build of configuration Debug for project Hello_World ****
+make all 
+make: Nothing to be done for `all'.
+22:01:12 **** Auto Build of configuration Debug for project Hello_World_Prompt ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../Hello_World_Prompt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Hello_World_Prompt.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Hello_World_Prompt_bsp/ps7_cortexa9_0/lib -o "Hello_World_Prompt.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Hello_World_Prompt.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Hello_World_Prompt.elf  |tee "Hello_World_Prompt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  78260	   3096	  29916	 111272	  1b2a8	Hello_World_Prompt.elf
+Finished building: Hello_World_Prompt.elf.size
+ 
+22:08:13 **** Auto Build of configuration Debug for project Hello_World_Prompt ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../Hello_World_Prompt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Hello_World_Prompt.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Hello_World_Prompt_bsp/ps7_cortexa9_0/lib -o "Hello_World_Prompt.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Hello_World_Prompt.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Hello_World_Prompt.elf  |tee "Hello_World_Prompt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  78388	   3096	  29916	 111400	  1b328	Hello_World_Prompt.elf
+Finished building: Hello_World_Prompt.elf.size
+ 
+22:08:28 **** Incremental Build of configuration Debug for project Hello_World_Prompt ****
+make all 
+make: Nothing to be done for `all'.
+22:08:28 **** Incremental Build of configuration Debug for project Hello_World ****
+make all 
+make: Nothing to be done for `all'.
+22:11:17 **** Auto Build of configuration Debug for project Hello_World_Prompt ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../Hello_World_Prompt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Hello_World_Prompt.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Hello_World_Prompt_bsp/ps7_cortexa9_0/lib -o "Hello_World_Prompt.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Hello_World_Prompt.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Hello_World_Prompt.elf  |tee "Hello_World_Prompt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  78388	   3096	  29916	 111400	  1b328	Hello_World_Prompt.elf
+Finished building: Hello_World_Prompt.elf.size
+ 
+22:11:35 **** Incremental Build of configuration Debug for project Hello_World_Prompt ****
+make all 
+make: Nothing to be done for `all'.
+22:11:36 **** Incremental Build of configuration Debug for project Hello_World ****
+make all 
+make: Nothing to be done for `all'.
+22:12:25 **** Auto Build of configuration Debug for project Hello_World_Prompt ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../Hello_World_Prompt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Hello_World_Prompt.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Hello_World_Prompt_bsp/ps7_cortexa9_0/lib -o "Hello_World_Prompt.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Hello_World_Prompt.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Hello_World_Prompt.elf  |tee "Hello_World_Prompt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  78388	   3096	  29916	 111400	  1b328	Hello_World_Prompt.elf
+Finished building: Hello_World_Prompt.elf.size
+ 
+22:12:30 **** Auto Build of configuration Debug for project Hello_World_Prompt ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../Hello_World_Prompt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Hello_World_Prompt.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Hello_World_Prompt_bsp/ps7_cortexa9_0/lib -o "Hello_World_Prompt.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Hello_World_Prompt.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Hello_World_Prompt.elf  |tee "Hello_World_Prompt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  78388	   3096	  29916	 111400	  1b328	Hello_World_Prompt.elf
+Finished building: Hello_World_Prompt.elf.size
+ 
+22:12:38 **** Incremental Build of configuration Debug for project Hello_World_Prompt ****
+make all 
+make: Nothing to be done for `all'.
+22:12:38 **** Incremental Build of configuration Debug for project Hello_World ****
+make all 
+make: Nothing to be done for `all'.
+22:17:41 **** Auto Build of configuration Debug for project Hello_World_Prompt ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../Hello_World_Prompt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Hello_World_Prompt.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Hello_World_Prompt_bsp/ps7_cortexa9_0/lib -o "Hello_World_Prompt.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Hello_World_Prompt.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Hello_World_Prompt.elf  |tee "Hello_World_Prompt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  78388	   3096	  29916	 111400	  1b328	Hello_World_Prompt.elf
+Finished building: Hello_World_Prompt.elf.size
+ 
+22:17:48 **** Incremental Build of configuration Debug for project Hello_World_Prompt ****
+make all 
+make: Nothing to be done for `all'.
+22:17:48 **** Incremental Build of configuration Debug for project Hello_World ****
+make all 
+make: Nothing to be done for `all'.
+22:26:20 **** Auto Build of configuration Debug for project Hello_World_Prompt ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../Hello_World_Prompt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Hello_World_Prompt.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Hello_World_Prompt_bsp/ps7_cortexa9_0/lib -o "Hello_World_Prompt.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Hello_World_Prompt.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Hello_World_Prompt.elf  |tee "Hello_World_Prompt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  78516	   3096	  29916	 111528	  1b3a8	Hello_World_Prompt.elf
+Finished building: Hello_World_Prompt.elf.size
+ 
+22:26:31 **** Incremental Build of configuration Debug for project Hello_World_Prompt ****
+make all 
+make: Nothing to be done for `all'.
+22:26:31 **** Incremental Build of configuration Debug for project Hello_World ****
+make all 
+make: Nothing to be done for `all'.
+22:27:42 **** Auto Build of configuration Debug for project Hello_World_Prompt ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../Hello_World_Prompt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:129:23: warning: unused variable 'internal_choice' [-Wunused-variable]
+  int exit_flag,choice,internal_choice;
+                       ^
+../src/helloworld.c:129:16: warning: unused variable 'choice' [-Wunused-variable]
+  int exit_flag,choice,internal_choice;
+                ^
+../src/helloworld.c:129:6: warning: variable 'exit_flag' set but not used [-Wunused-but-set-variable]
+  int exit_flag,choice,internal_choice;
+      ^
+../src/helloworld.c:122:19: warning: unused variable 'OldReadStatus' [-Wunused-variable]
+  u32 Readstatus=0,OldReadStatus=0;
+                   ^
+../src/helloworld.c:122:6: warning: unused variable 'Readstatus' [-Wunused-variable]
+  u32 Readstatus=0,OldReadStatus=0;
+      ^
+Finished building: ../src/helloworld.c
+ 
+Building target: Hello_World_Prompt.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Hello_World_Prompt_bsp/ps7_cortexa9_0/lib -o "Hello_World_Prompt.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Hello_World_Prompt.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Hello_World_Prompt.elf  |tee "Hello_World_Prompt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  37712	   1928	  29844	  69484	  10f6c	Hello_World_Prompt.elf
+Finished building: Hello_World_Prompt.elf.size
+ 
+22:27:52 **** Incremental Build of configuration Debug for project Hello_World_Prompt ****
+make all 
+make: Nothing to be done for `all'.
+22:27:52 **** Incremental Build of configuration Debug for project Hello_World ****
+make all 
+make: Nothing to be done for `all'.
+22:32:12 **** Incremental Build of configuration Debug for project Hello_World_Prompt ****
+make all 
+make: Nothing to be done for `all'.
+22:32:12 **** Incremental Build of configuration Debug for project Hello_World ****
+make all 
+make: Nothing to be done for `all'.
+22:50:21 **** Auto Build of configuration Debug for project Hello_World_Prompt ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../Hello_World_Prompt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:60:2: warning: "/*" within comment [-Wcomment]
+  /*
+ ^
+../src/helloworld.c:67:2: warning: "/*" within comment [-Wcomment]
+  /*
+ ^
+../src/helloworld.c:77:2: warning: "/*" within comment [-Wcomment]
+  /*
+ ^
+../src/helloworld.c:90:2: warning: "/*" within comment [-Wcomment]
+  /*
+ ^
+../src/helloworld.c:97:2: warning: "/*" within comment [-Wcomment]
+  /*
+ ^
+../src/helloworld.c:109:2: warning: "/*" within comment [-Wcomment]
+  /*
+ ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:123:19: warning: unused variable 'OldReadStatus' [-Wunused-variable]
+  u32 Readstatus=0,OldReadStatus=0;
+                   ^
+../src/helloworld.c:123:6: warning: unused variable 'Readstatus' [-Wunused-variable]
+  u32 Readstatus=0,OldReadStatus=0;
+      ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:35:24: warning: 'GicConfig' defined but not used [-Wunused-variable]
+ static XScuGic_Config *GicConfig;/* The configuration parameters of the
+                        ^
+../src/helloworld.c:37:12: warning: 'InterruptFlag' defined but not used [-Wunused-variable]
+ static int InterruptFlag;
+            ^
+Finished building: ../src/helloworld.c
+ 
+Building target: Hello_World_Prompt.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Hello_World_Prompt_bsp/ps7_cortexa9_0/lib -o "Hello_World_Prompt.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Hello_World_Prompt.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Hello_World_Prompt.elf  |tee "Hello_World_Prompt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31572	   1144	  29844	  62560	   f460	Hello_World_Prompt.elf
+Finished building: Hello_World_Prompt.elf.size
+ 
+22:50:36 **** Auto Build of configuration Debug for project Hello_World_Prompt ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../Hello_World_Prompt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:60:2: warning: "/*" within comment [-Wcomment]
+  /*
+ ^
+../src/helloworld.c:67:2: warning: "/*" within comment [-Wcomment]
+  /*
+ ^
+../src/helloworld.c:77:2: warning: "/*" within comment [-Wcomment]
+  /*
+ ^
+../src/helloworld.c:90:2: warning: "/*" within comment [-Wcomment]
+  /*
+ ^
+../src/helloworld.c:97:2: warning: "/*" within comment [-Wcomment]
+  /*
+ ^
+../src/helloworld.c:109:2: warning: "/*" within comment [-Wcomment]
+  /*
+ ^
+../src/helloworld.c:35:24: warning: 'GicConfig' defined but not used [-Wunused-variable]
+ static XScuGic_Config *GicConfig;/* The configuration parameters of the
+                        ^
+../src/helloworld.c:37:12: warning: 'InterruptFlag' defined but not used [-Wunused-variable]
+ static int InterruptFlag;
+            ^
+Finished building: ../src/helloworld.c
+ 
+Building target: Hello_World_Prompt.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Hello_World_Prompt_bsp/ps7_cortexa9_0/lib -o "Hello_World_Prompt.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Hello_World_Prompt.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Hello_World_Prompt.elf  |tee "Hello_World_Prompt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31556	   1144	  29844	  62544	   f450	Hello_World_Prompt.elf
+Finished building: Hello_World_Prompt.elf.size
+ 
+22:51:05 **** Auto Build of configuration Debug for project Hello_World_Prompt ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../Hello_World_Prompt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:60:2: warning: "/*" within comment [-Wcomment]
+  /*
+ ^
+../src/helloworld.c:67:2: warning: "/*" within comment [-Wcomment]
+  /*
+ ^
+../src/helloworld.c:77:2: warning: "/*" within comment [-Wcomment]
+  /*
+ ^
+../src/helloworld.c:90:2: warning: "/*" within comment [-Wcomment]
+  /*
+ ^
+../src/helloworld.c:97:2: warning: "/*" within comment [-Wcomment]
+  /*
+ ^
+../src/helloworld.c:109:2: warning: "/*" within comment [-Wcomment]
+  /*
+ ^
+Finished building: ../src/helloworld.c
+ 
+Building target: Hello_World_Prompt.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Hello_World_Prompt_bsp/ps7_cortexa9_0/lib -o "Hello_World_Prompt.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Hello_World_Prompt.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Hello_World_Prompt.elf  |tee "Hello_World_Prompt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31556	   1144	  29844	  62544	   f450	Hello_World_Prompt.elf
+Finished building: Hello_World_Prompt.elf.size
+ 
+22:51:14 **** Incremental Build of configuration Debug for project Hello_World_Prompt ****
+make all 
+make: Nothing to be done for `all'.
+22:51:15 **** Incremental Build of configuration Debug for project Hello_World ****
+make all 
+make: Nothing to be done for `all'.
+22:55:20 **** Auto Build of configuration Debug for project Hello_World_Prompt ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../Hello_World_Prompt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:60:2: warning: "/*" within comment [-Wcomment]
+  /*
+ ^
+../src/helloworld.c:67:2: warning: "/*" within comment [-Wcomment]
+  /*
+ ^
+../src/helloworld.c:77:2: warning: "/*" within comment [-Wcomment]
+  /*
+ ^
+../src/helloworld.c:90:2: warning: "/*" within comment [-Wcomment]
+  /*
+ ^
+../src/helloworld.c:97:2: warning: "/*" within comment [-Wcomment]
+  /*
+ ^
+../src/helloworld.c:109:2: warning: "/*" within comment [-Wcomment]
+  /*
+ ^
+Finished building: ../src/helloworld.c
+ 
+Building target: Hello_World_Prompt.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Hello_World_Prompt_bsp/ps7_cortexa9_0/lib -o "Hello_World_Prompt.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Hello_World_Prompt.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Hello_World_Prompt.elf  |tee "Hello_World_Prompt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31496	   1144	  29844	  62484	   f414	Hello_World_Prompt.elf
+Finished building: Hello_World_Prompt.elf.size
+ 
+22:55:30 **** Incremental Build of configuration Debug for project Hello_World_Prompt ****
+make all 
+make: Nothing to be done for `all'.
+22:55:30 **** Incremental Build of configuration Debug for project Hello_World ****
+make all 
+make: Nothing to be done for `all'.
+22:59:30 **** Auto Build of configuration Debug for project Hello_World_Prompt ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../Hello_World_Prompt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:60:2: warning: "/*" within comment [-Wcomment]
+  /*
+ ^
+../src/helloworld.c:67:2: warning: "/*" within comment [-Wcomment]
+  /*
+ ^
+../src/helloworld.c:77:2: warning: "/*" within comment [-Wcomment]
+  /*
+ ^
+../src/helloworld.c:90:2: warning: "/*" within comment [-Wcomment]
+  /*
+ ^
+../src/helloworld.c:97:2: warning: "/*" within comment [-Wcomment]
+  /*
+ ^
+../src/helloworld.c:109:2: warning: "/*" within comment [-Wcomment]
+  /*
+ ^
+Finished building: ../src/helloworld.c
+ 
+Building target: Hello_World_Prompt.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Hello_World_Prompt_bsp/ps7_cortexa9_0/lib -o "Hello_World_Prompt.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Hello_World_Prompt.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Hello_World_Prompt.elf  |tee "Hello_World_Prompt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31496	   1144	  29844	  62484	   f414	Hello_World_Prompt.elf
+Finished building: Hello_World_Prompt.elf.size
+ 
+22:59:36 **** Incremental Build of configuration Debug for project Hello_World_Prompt ****
+make all 
+make: Nothing to be done for `all'.
+22:59:37 **** Incremental Build of configuration Debug for project Hello_World ****
+make all 
+make: Nothing to be done for `all'.
+23:00:32 **** Auto Build of configuration Debug for project Hello_World_Prompt ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../Hello_World_Prompt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:60:2: warning: "/*" within comment [-Wcomment]
+  /*
+ ^
+../src/helloworld.c:67:2: warning: "/*" within comment [-Wcomment]
+  /*
+ ^
+../src/helloworld.c:77:2: warning: "/*" within comment [-Wcomment]
+  /*
+ ^
+../src/helloworld.c:90:2: warning: "/*" within comment [-Wcomment]
+  /*
+ ^
+../src/helloworld.c:97:2: warning: "/*" within comment [-Wcomment]
+  /*
+ ^
+../src/helloworld.c:109:2: warning: "/*" within comment [-Wcomment]
+  /*
+ ^
+Finished building: ../src/helloworld.c
+ 
+Building target: Hello_World_Prompt.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Hello_World_Prompt_bsp/ps7_cortexa9_0/lib -o "Hello_World_Prompt.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Hello_World_Prompt.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Hello_World_Prompt.elf  |tee "Hello_World_Prompt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31496	   1144	  29844	  62484	   f414	Hello_World_Prompt.elf
+Finished building: Hello_World_Prompt.elf.size
+ 
+23:00:38 **** Incremental Build of configuration Debug for project Hello_World_Prompt ****
+make all 
+make: Nothing to be done for `all'.
+23:00:38 **** Incremental Build of configuration Debug for project Hello_World ****
+make all 
+make: Nothing to be done for `all'.
+23:02:01 **** Auto Build of configuration Debug for project Hello_World_Prompt ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../Hello_World_Prompt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Hello_World_Prompt.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Hello_World_Prompt_bsp/ps7_cortexa9_0/lib -o "Hello_World_Prompt.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Hello_World_Prompt.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Hello_World_Prompt.elf  |tee "Hello_World_Prompt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31496	   1144	  29828	  62468	   f404	Hello_World_Prompt.elf
+Finished building: Hello_World_Prompt.elf.size
+ 
+23:02:07 **** Incremental Build of configuration Debug for project Hello_World_Prompt ****
+make all 
+make: Nothing to be done for `all'.
+23:02:07 **** Incremental Build of configuration Debug for project Hello_World ****
+make all 
+make: Nothing to be done for `all'.
+23:02:51 **** Auto Build of configuration Debug for project Hello_World_Prompt ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../Hello_World_Prompt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Hello_World_Prompt.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Hello_World_Prompt_bsp/ps7_cortexa9_0/lib -o "Hello_World_Prompt.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Hello_World_Prompt.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Hello_World_Prompt.elf  |tee "Hello_World_Prompt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31496	   1144	  29828	  62468	   f404	Hello_World_Prompt.elf
+Finished building: Hello_World_Prompt.elf.size
+ 
+23:08:46 **** Auto Build of configuration Debug for project Hello_World_Prompt ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../Hello_World_Prompt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Hello_World_Prompt.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Hello_World_Prompt_bsp/ps7_cortexa9_0/lib -o "Hello_World_Prompt.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Hello_World_Prompt.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Hello_World_Prompt.elf  |tee "Hello_World_Prompt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31496	   1144	  29828	  62468	   f404	Hello_World_Prompt.elf
+Finished building: Hello_World_Prompt.elf.size
+ 
+23:08:55 **** Incremental Build of configuration Debug for project Hello_World_Prompt ****
+make all 
+make: Nothing to be done for `all'.
+23:08:56 **** Incremental Build of configuration Debug for project Hello_World ****
+make all 
+make: Nothing to be done for `all'.
+23:09:47 **** Auto Build of configuration Debug for project Hello_World_Prompt ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../Hello_World_Prompt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Hello_World_Prompt.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Hello_World_Prompt_bsp/ps7_cortexa9_0/lib -o "Hello_World_Prompt.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Hello_World_Prompt.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Hello_World_Prompt.elf  |tee "Hello_World_Prompt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31496	   1144	  29828	  62468	   f404	Hello_World_Prompt.elf
+Finished building: Hello_World_Prompt.elf.size
+ 
+23:09:57 **** Incremental Build of configuration Debug for project Hello_World_Prompt ****
+make all 
+make: Nothing to be done for `all'.
+23:09:57 **** Incremental Build of configuration Debug for project Hello_World ****
+make all 
+make: Nothing to be done for `all'.
+23:10:26 **** Auto Build of configuration Debug for project Hello_World_Prompt ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../Hello_World_Prompt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: Hello_World_Prompt.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Hello_World_Prompt_bsp/ps7_cortexa9_0/lib -o "Hello_World_Prompt.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Hello_World_Prompt.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Hello_World_Prompt.elf  |tee "Hello_World_Prompt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31496	   1144	  29828	  62468	   f404	Hello_World_Prompt.elf
+Finished building: Hello_World_Prompt.elf.size
+ 
+23:10:31 **** Incremental Build of configuration Debug for project Hello_World_Prompt ****
+make all 
+make: Nothing to be done for `all'.
+23:10:31 **** Incremental Build of configuration Debug for project Hello_World ****
+make all 
+make: Nothing to be done for `all'.

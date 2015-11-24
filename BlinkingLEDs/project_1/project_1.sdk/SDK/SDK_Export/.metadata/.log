@@ -1,0 +1,36 @@
+!SESSION 2015-11-08 22:10:24.148 -----------------------------------------------
+eclipse.buildId=2014.1
+java.version=1.7.0_40
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -data /fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export
+
+!ENTRY org.eclipse.core.resources 2 10035 2015-11-08 22:10:25.777
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2015-11-08 23:05:42.755 -----------------------------------------------
+eclipse.buildId=2014.1
+java.version=1.7.0_40
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -data /fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-11-08 23:17:04.349
+!MESSAGE Indexed 'Hello_World' (2 sources, 25 headers) in 0.60 sec: 961 declarations; 1,291 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-11-08 23:17:05.904
+!MESSAGE Indexed 'Hello_World_bsp' (81 sources, 104 headers) in 1.52 sec: 3,291 declarations; 12,206 references; 56 unresolved inclusions; 9 syntax errors; 37 unresolved names (0.24%)
+!SESSION 2015-11-09 21:15:57.828 -----------------------------------------------
+eclipse.buildId=2014.1
+java.version=1.7.0_40
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -data /fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-11-09 21:19:33.635
+!MESSAGE Indexed 'Hello_World_Prompt' (2 sources, 25 headers) in 0.49 sec: 961 declarations; 1,291 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-11-09 21:19:35.891
+!MESSAGE Indexed 'Hello_World_Prompt_bsp' (117 sources, 135 headers) in 2.22 sec: 5,243 declarations; 23,341 references; 59 unresolved inclusions; 9 syntax errors; 31 unresolved names (0.11%)
+
+!ENTRY org.eclipse.core.jobs 2 2 2015-11-09 23:19:25.550
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.xilinx.sdk.hw.sync.HwPlatformMonitorUtils$1

@@ -1,0 +1,114 @@
+21:34:36 INFO  : Processing command line option -hwspec /fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export/hw/system.xml.
+22:10:33 INFO  : Processing command line option -hwspec /fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export/hw/system.xml.
+22:10:37 INFO  : The hardware specification for project 'hw_platform_0' is different from /fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export/hw/system.xml.
+22:10:37 INFO  : Copied contents of /fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export/hw/system.xml into /hw_platform_0/system.xml.
+22:10:38 INFO  : Copied contents of /fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export/hw/ps7_init.c into /hw_platform_0/ps7_init.c.
+22:10:38 INFO  : Copied contents of /fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export/hw/ps7_init.h into /hw_platform_0/ps7_init.h.
+22:10:38 INFO  : Copied contents of /fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export/hw/ps7_init.html into /hw_platform_0/ps7_init.html.
+22:10:38 INFO  : Copied contents of /fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export/hw/ps7_init.tcl into /hw_platform_0/ps7_init.tcl.
+22:10:38 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+22:10:38 INFO  : Clearing existing target manager status.
+22:10:41 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+22:28:14 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+23:05:49 INFO  : Processing command line option -hwspec /fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export/hw/system.xml.
+23:05:51 INFO  : The hardware specification for project 'hw_platform_0' is different from /fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export/hw/system.xml.
+23:05:52 INFO  : Copied contents of /fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export/hw/system.xml into /hw_platform_0/system.xml.
+23:05:52 INFO  : Copied contents of /fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export/hw/ps7_init.c into /hw_platform_0/ps7_init.c.
+23:05:52 INFO  : Copied contents of /fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export/hw/ps7_init.h into /hw_platform_0/ps7_init.h.
+23:05:52 INFO  : Copied contents of /fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export/hw/ps7_init.html into /hw_platform_0/ps7_init.html.
+23:05:52 INFO  : Copied contents of /fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export/hw/ps7_init.tcl into /hw_platform_0/ps7_init.tcl.
+23:05:52 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+23:05:52 INFO  : Clearing existing target manager status.
+23:05:53 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+23:19:35 INFO  : ps7_init is completed.
+23:19:35 INFO  : Processor reset is completed for ps7_cortexa9_0
+23:35:41 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+21:16:10 INFO  : Processing command line option -hwspec /fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export/hw/system.xml.
+21:16:11 INFO  : The hardware specification for project 'hw_platform_0' is different from /fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export/hw/system.xml.
+21:16:11 INFO  : Copied contents of /fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export/hw/system.xml into /hw_platform_0/system.xml.
+21:16:11 INFO  : Copied contents of /fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export/hw/system_wrapper.bit into /hw_platform_0/system_wrapper.bit.
+21:16:20 INFO  : Copied contents of /fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export/hw/ps7_init.c into /hw_platform_0/ps7_init.c.
+21:16:20 INFO  : Copied contents of /fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export/hw/ps7_init.h into /hw_platform_0/ps7_init.h.
+21:16:20 INFO  : Copied contents of /fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export/hw/ps7_init.html into /hw_platform_0/ps7_init.html.
+21:16:20 INFO  : Copied contents of /fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export/hw/ps7_init.tcl into /hw_platform_0/ps7_init.tcl.
+21:16:20 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+21:16:27 INFO  : 
+21:16:29 INFO  : Updating hardware inferred compiler options for Hello_World.
+21:16:29 INFO  : Clearing existing target manager status.
+21:16:31 INFO  : Closing and re-opening the MSS file of ther project Hello_World_bsp
+21:16:31 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+21:29:10 INFO  : System reset is completed.
+21:29:22 INFO  : FPGA configured successfully with bitstream "/fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit"
+21:29:23 INFO  : ps7_init is completed.
+21:29:23 INFO  : ps7_post_config is completed.
+21:34:36 INFO  : System reset is completed.
+21:34:48 INFO  : FPGA configured successfully with bitstream "/fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit"
+21:34:49 INFO  : ps7_init is completed.
+21:34:49 INFO  : ps7_post_config is completed.
+22:08:29 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:08:32 INFO  : System reset is completed.
+22:08:44 INFO  : FPGA configured successfully with bitstream "/fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit"
+22:08:45 INFO  : ps7_init is completed.
+22:08:45 INFO  : ps7_post_config is completed.
+22:11:36 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:11:38 INFO  : System reset is completed.
+22:11:50 INFO  : FPGA configured successfully with bitstream "/fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit"
+22:11:51 INFO  : ps7_init is completed.
+22:11:51 INFO  : ps7_post_config is completed.
+22:12:39 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:12:40 INFO  : System reset is completed.
+22:12:52 INFO  : FPGA configured successfully with bitstream "/fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit"
+22:12:54 INFO  : ps7_init is completed.
+22:12:54 INFO  : ps7_post_config is completed.
+22:17:49 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:17:50 INFO  : System reset is completed.
+22:18:02 INFO  : FPGA configured successfully with bitstream "/fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit"
+22:18:03 INFO  : ps7_init is completed.
+22:18:03 INFO  : ps7_post_config is completed.
+22:26:32 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:26:36 INFO  : System reset is completed.
+22:26:48 INFO  : FPGA configured successfully with bitstream "/fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit"
+22:26:49 INFO  : ps7_init is completed.
+22:26:49 INFO  : ps7_post_config is completed.
+22:27:53 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:27:54 INFO  : System reset is completed.
+22:28:06 INFO  : FPGA configured successfully with bitstream "/fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit"
+22:28:07 INFO  : ps7_init is completed.
+22:28:07 INFO  : ps7_post_config is completed.
+22:32:14 INFO  : System reset is completed.
+22:32:26 INFO  : FPGA configured successfully with bitstream "/fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit"
+22:32:27 INFO  : ps7_init is completed.
+22:32:27 INFO  : ps7_post_config is completed.
+22:51:16 INFO  : System reset is completed.
+22:51:28 INFO  : FPGA configured successfully with bitstream "/fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit"
+22:51:29 INFO  : ps7_init is completed.
+22:51:30 INFO  : ps7_post_config is completed.
+22:55:31 INFO  : System reset is completed.
+22:55:43 INFO  : FPGA configured successfully with bitstream "/fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit"
+22:55:44 INFO  : ps7_init is completed.
+22:55:44 INFO  : ps7_post_config is completed.
+22:59:38 INFO  : System reset is completed.
+22:59:50 INFO  : FPGA configured successfully with bitstream "/fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit"
+22:59:51 INFO  : ps7_init is completed.
+22:59:51 INFO  : ps7_post_config is completed.
+23:00:39 INFO  : System reset is completed.
+23:00:52 INFO  : FPGA configured successfully with bitstream "/fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit"
+23:00:53 INFO  : ps7_init is completed.
+23:00:53 INFO  : ps7_post_config is completed.
+23:02:08 INFO  : System reset is completed.
+23:02:20 INFO  : FPGA configured successfully with bitstream "/fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit"
+23:02:21 INFO  : ps7_init is completed.
+23:02:21 INFO  : ps7_post_config is completed.
+23:08:57 INFO  : System reset is completed.
+23:09:09 INFO  : FPGA configured successfully with bitstream "/fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit"
+23:09:10 INFO  : ps7_init is completed.
+23:09:10 INFO  : ps7_post_config is completed.
+23:09:58 INFO  : System reset is completed.
+23:10:10 INFO  : FPGA configured successfully with bitstream "/fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit"
+23:10:11 INFO  : ps7_init is completed.
+23:10:11 INFO  : ps7_post_config is completed.
+23:10:32 INFO  : System reset is completed.
+23:10:44 INFO  : FPGA configured successfully with bitstream "/fs/student/ireton/Documents/project/project_1/project_1.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit"
+23:10:45 INFO  : ps7_init is completed.
+23:10:45 INFO  : ps7_post_config is completed.
+23:19:23 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
