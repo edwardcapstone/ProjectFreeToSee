@@ -1,0 +1,142 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Fixed-Point Report for filter1d</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style>
+	body { font-family: monospace; }
+	h2 { font-family: Arial, Helvetica, sans-serif; color: #990000; margin-top: 50px; }
+	table,th,td { border: 1px solid black; }
+	table { margin-top: 30px; }
+	th { align: center; font-weight: bold; }
+	tr.h { background-color: #99CCFF; }
+	tr.a { background-color: #EEEEFF; }
+	tr.b { background-color: #FFFFFF; }
+	tr.c { background-color: #FFA500; }
+	tr.a td, tr.b td { border-style: none; }
+	td.left { text-align: left; }
+	td.right { text-align: right; }
+	td.center { text-align: center; }
+	td.bold { font-weight: bold; }
+	pre { padding: 0px; margin: 0px; }
+	span { font-style: italic; }
+	.code, .code tr, .code th, .code td { border: none; border-collapse: collapse; }
+	.padd { padding-left: 5px; }
+	td.cov, th.cov { width: 50px; height: 20px; text-align: center; font-weight: bold; border-right: 2px solid black; cell-spacing: 0px; }
+	td.cov { vertical-align: top; }
+	td.black { color: #000000; font-weight: bold; padding-top: 4px; }
+	td.white { color: #FFFFFF; font-weight: bold; padding-top: 4px; }
+	.code th { font-weight: bold; border-bottom: 2px solid black; }
+</style>
+</head>
+<body>
+<h3>Generated on  2016-03-28 15:04:48</h3>
+<p>The following table shows fixed point instrumentation results</p>
+<h2>Fixed-Point Report <span>filter1d<span></h2>
+<TABLE class="code">
+<TR>
+<TH class="cov padd">Simulation Coverage</TH>
+<TH>Code</TH>
+</TR>
+<TR>
+<TD class="cov white" style="background-color: rgb(5,112,9);">100%</TD>
+<TD class="padd"><pre>function [y_out, delayed_xout] = filter1d(x_in, h_in1, h_in2, h_in3, h_in4)
+
+% declare delay registers
+persistent ud1 ud2 ud3 ud4 ud5 ud6 ud7 ud8;
+</pre></TD>
+</TR>
+<TR>
+<TD class="cov black" style="background-color: rgb(255,160,118);">Once</TD>
+<TD class="padd"><pre>if isempty(ud1)
+    ud1 = 0; ud2 = 0; ud3 = 0; ud4 = 0; ud5 = 0; ud6 = 0; ud7 = 0; ud8 = 0;
+end</pre></TD>
+</TR>
+<TR>
+<TD class="cov white" style="background-color: rgb(5,112,9);">100%</TD>
+<TD class="padd"><pre>
+
+% access the previous value of states/registers
+a1 = ud1 + ud8; a2 = ud2 + ud7;
+a3 = ud3 + ud6; a4 = ud4 + ud5;
+
+% multiplier chain
+m1 = h_in1 * a1; m2 = h_in2 * a2;
+m3 = h_in3 * a3; m4 = h_in4 * a4;
+
+% adder chain
+a5 = m1 + m2; a6 = m3 + m4;
+
+% filtered output
+y_out = a5 + a6;
+
+% delayout input signal
+delayed_xout = ud8;
+
+% update the delay line
+ud8 = ud7; 
+ud7 = ud6;
+ud6 = ud5;
+ud5 = ud4;
+ud4 = ud3;
+ud3 = ud2;
+ud2 = ud1;
+ud1 = x_in;
+
+end</pre></TD>
+</TR>
+</TABLE>
+<TABLE><TR class="h"><th>Variable Name</th><th>Type</th><th>Sim Min</th><th>Sim Max</th><th>Static Min</th><th>Static Max</th><th>Whole Number</th><th>ProposedType <BR /> (Best For WL = 32)</th></TR><TR class="a">
+<TD class="left">a1</TD><TD class="left">double</TD><TD class="right">-1.9992893467997952</TD><TD class="right">1.9977514492929604</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 32, 30)</TD></TR>
+<TR class="b">
+<TD class="left">a2</TD><TD class="left">double</TD><TD class="right">-1.992314672599056</TD><TD class="right">1.999807240482062</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 32, 30)</TD></TR>
+<TR class="a">
+<TD class="left">a3</TD><TD class="left">double</TD><TD class="right">-1.986123539135293</TD><TD class="right">1.9997334214929798</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 32, 30)</TD></TR>
+<TR class="b">
+<TD class="left">a4</TD><TD class="left">double</TD><TD class="right">-1.9981369790184815</TD><TD class="right">1.9999771889635523</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 32, 30)</TD></TR>
+<TR class="a">
+<TD class="left">a5</TD><TD class="left">double</TD><TD class="right">-0.4349718363811515</TD><TD class="right">0.4223737819616705</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 32, 32)</TD></TR>
+<TR class="b">
+<TD class="left">a6</TD><TD class="left">double</TD><TD class="right">-1.2144314973019212</TD><TD class="right">1.2178942850713204</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 32, 30)</TD></TR>
+<TR class="a">
+<TD class="left">delayed_xout</TD><TD class="left">double</TD><TD class="right">-0.9999873669329657</TD><TD class="right">1</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 32, 30)</TD></TR>
+<TR class="b">
+<TD class="left">h_in1</TD><TD class="left">double</TD><TD class="right">-0.1339</TD><TD class="right">-0.1339</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 32, 33)</TD></TR>
+<TR class="a">
+<TD class="left">h_in2</TD><TD class="left">double</TD><TD class="right">-0.0838</TD><TD class="right">-0.0838</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 32, 34)</TD></TR>
+<TR class="b">
+<TD class="left">h_in3</TD><TD class="left">double</TD><TD class="right">0.2026</TD><TD class="right">0.2026</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(0, 32, 34)</TD></TR>
+<TR class="a">
+<TD class="left">h_in4</TD><TD class="left">double</TD><TD class="right">0.4064</TD><TD class="right">0.4064</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(0, 32, 33)</TD></TR>
+<TR class="b">
+<TD class="left">m1</TD><TD class="left">double</TD><TD class="right">-0.2674989190603274</TD><TD class="right">0.26770484353649254</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 32, 32)</TD></TR>
+<TR class="a">
+<TD class="left">m2</TD><TD class="left">double</TD><TD class="right">-0.1675838467523968</TD><TD class="right">0.16695596956380088</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 32, 33)</TD></TR>
+<TR class="b">
+<TD class="left">m3</TD><TD class="left">double</TD><TD class="right">-0.40238862902881034</TD><TD class="right">0.4051459911944777</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 32, 32)</TD></TR>
+<TR class="a">
+<TD class="left">m4</TD><TD class="left">double</TD><TD class="right">-0.8120428682731109</TD><TD class="right">0.8127907295947876</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 32, 31)</TD></TR>
+<TR class="b">
+<TD class="left">ud1</TD><TD class="left">double</TD><TD class="right">-0.9999873669329657</TD><TD class="right">1</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 32, 30)</TD></TR>
+<TR class="a">
+<TD class="left">ud2</TD><TD class="left">double</TD><TD class="right">-0.9999873669329657</TD><TD class="right">1</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 32, 30)</TD></TR>
+<TR class="b">
+<TD class="left">ud3</TD><TD class="left">double</TD><TD class="right">-0.9999873669329657</TD><TD class="right">1</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 32, 30)</TD></TR>
+<TR class="a">
+<TD class="left">ud4</TD><TD class="left">double</TD><TD class="right">-0.9999873669329657</TD><TD class="right">1</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 32, 30)</TD></TR>
+<TR class="b">
+<TD class="left">ud5</TD><TD class="left">double</TD><TD class="right">-0.9999873669329657</TD><TD class="right">1</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 32, 30)</TD></TR>
+<TR class="a">
+<TD class="left">ud6</TD><TD class="left">double</TD><TD class="right">-0.9999873669329657</TD><TD class="right">1</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 32, 30)</TD></TR>
+<TR class="b">
+<TD class="left">ud7</TD><TD class="left">double</TD><TD class="right">-0.9999873669329657</TD><TD class="right">1</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 32, 30)</TD></TR>
+<TR class="a">
+<TD class="left">ud8</TD><TD class="left">double</TD><TD class="right">-0.9999873669329657</TD><TD class="right">1</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 32, 30)</TD></TR>
+<TR class="b">
+<TD class="left">x_in</TD><TD class="left">double</TD><TD class="right">-0.9999873669329657</TD><TD class="right">1</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 32, 30)</TD></TR>
+<TR class="a">
+<TD class="left">y_out</TD><TD class="left">double</TD><TD class="right">-1.2151956482894826</TD><TD class="right">1.2158941022153251</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 32, 30)</TD></TR>
+</TABLE>
+
+</body>
+</html>
